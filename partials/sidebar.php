@@ -34,9 +34,9 @@
       <!-- level administrator -->
       <nav class="mt-2">
               <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
-                
+                <!-- Basic Information Menu -->
                 <li class="nav-item has-treeview">
-                  <a href="?page=administrator-def" class="nav-link">
+                  <a href="#" class="nav-link">
                     <i class="nav-icon fas fa-screwdriver-wrench"></i>
                     <p>Basic Information</p>
                     <i class="right fas fa-angle-left"></i>
@@ -156,14 +156,113 @@
                                 <p>Print Template Management</p>
                             </a>
                         </li>
-                        
+                        <li class="nav-item">
+                            <a href="?submenu=property_key-value_pairs" class="nav-link">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Property Key-value Pairs</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="?submenu=internal_orders" class="nav-link">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Internal Orders</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="?submenu=excel_template" class="nav-link">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Excel Template</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="?submenu=excel_mapping_relation" class="nav-link">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Excel Mapping Relation</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="?submenu=certificate_cancellation" class="nav-link">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Certificate Cancellation</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="?submenu=write-off_record" class="nav-link">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Write-off Record</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="?submenu=repository_group" class="nav-link">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Repository Group</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="?submenu=pick_goods_section_setup" class="nav-link">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Pick Goods Section Setup</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="?submenu=customer_locale" class="nav-link">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Customer Locale</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="?submenu=batch_characteristics" class="nav-link">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Batch Characteristics</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="?submenu=batch_characteristics_classification" class="nav-link">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Batch Characteristics Classification</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="?submenu=print_the_template" class="nav-link">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Print the Template</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="?submenu=batch_characteristics_strategy" class="nav-link">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Batch Characteristics Strategy</p>
+                            </a>
+                        </li>
                     </ul>
                 </li>
+                <!-- Purchasing and Warehousing Menu -->
                 <li class="nav-item">
-                  <a href="?page=user_view" class="nav-link">
-                    <i class="nav-icon fas fa-user-friends"></i>
-                    <p>Manage User</p>
+                  <a href="#" class="nav-link">
+                    <i class="nav-icon fas fa-boxes-stacked"></i>
+                    <p>Purchasing and Warehousing</p>
+                    <i class="right fas fa-angle-left"></i>
                   </a>
+                  <ul class="nav nav-treeview">
+                    <li class="nav-item">
+                        <a href="?submenu=purchasing_application" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Purchasing Application</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="?submenu=purchasing_order" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Purchasing Order</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="?submenu=" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Purchase SRM Delivery Order</p>
+                        </a>
+                    </li>
+                  </ul>
                 </li>
                 <li class="nav-header">PROFILE</li>
                 <li class="nav-item">
