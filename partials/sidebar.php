@@ -257,19 +257,114 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="?submenu=" class="nav-link">
+                        <a href="?submenu=purchase_srm_delivery_order" class="nav-link">
                             <i class="far fa-circle nav-icon"></i>
                             <p>Purchase SRM Delivery Order</p>
                         </a>
                     </li>
+                    <li class="nav-item">
+                        <a href="?submenu=purchasing_receiving_warehousing" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Purchasing, Receiving, and Warehousing</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="?submenu=purchasing_and_receiving_records" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Purchasing and Receiving Records</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="?submenu=acquisition_receipt_of_goods" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Acquisition and Receipt of Goods are not Recorded in Warehouse</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="?submenu=storage_virtual_warehouse" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Storage in Virtual Warehouse</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="?submenu=purchase_return" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Purchase Return</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="?submenu=purchase_return_record" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Purchase Return Record</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="?submenu=purchase_and_exchange" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Purchase and Exchange (Exchange)</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="?submenu=purchasing_and_exchange_records" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Purchasing and Exchange Records</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="?submenu=reporting_and_inspectionofpurchase" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Reporting and Inspection of Purchase in Warehouse</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="?submenu=qualified_transferofpurchase" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Qualified Transfer of Purchase into Warehouse</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="?submenu=purchase_receipt_notice" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Purchase Receipt Notice</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="?submenu=preform_final_inspectiondata" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Preform Final Inspection Data</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="?submenu=receiving_characteristics" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Receiving Characteristics</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="?submenu=purchased_optical_fiberdata" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Purchased Optical Fiber Data</p>
+                        </a>
+                    </li>
                   </ul>
                 </li>
-                <li class="nav-header">PROFILE</li>
+                <!-- <li class="nav-header">PROFILE</li> -->
+
+                <!-- Production Warehousing -->
                 <li class="nav-item">
-                  <a href="?page=me_manage" class="nav-link">
+                  <a href="#" class="nav-link">
                     <i class="nav-icon fas fa-user"></i>
-                    <p>Manage My Account</p>
+                    <p>Production Warehousing</p>
+                    <i class="right fas fa-angle-left"></i>
                   </a>
+                  <ul class="nav nav-treeview">>
+                    <li class="nav-item">
+                        <a href="?submenu=purchasing_application" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Purchasing Application</p>
+                        </a>
+                    </li>
+                  </ul>
                 </li>
                 <li class="nav-item">
                   <a href="logout.php" class="nav-link" onclick="return confirm('Do you really wanna to sign out ?')">
