@@ -353,19 +353,145 @@
                 <!-- Production Warehousing -->
                 <li class="nav-item">
                   <a href="#" class="nav-link">
-                    <i class="nav-icon fas fa-user"></i>
+                    <i class="nav-icon fas fa-boxes-packing"></i>
                     <p>Production Warehousing</p>
                     <i class="right fas fa-angle-left"></i>
                   </a>
                   <ul class="nav nav-treeview">>
                     <li class="nav-item">
-                        <a href="?submenu=purchasing_application" class="nav-link">
+                        <a href="?submenu=production_warehousing" class="nav-link">
                             <i class="far fa-circle nav-icon"></i>
-                            <p>Purchasing Application</p>
+                            <p>Production Warehousing</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="?submenu=production_input_record" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Production Input Record</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="?submenu=printing_of_production_input_documents" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Printing of Production Input Documents</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="?submenu=production_order_record" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Production Order Record</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="?submenu=production_warehousing_record_details" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Production Warehousing Record Details</p>
                         </a>
                     </li>
                   </ul>
                 </li>
+
+                <!-- Collect Material Out of Warehouse -->
+                <li class="nav-item">
+                  <a href="#" class="nav-link">
+                    <i class="nav-icon fas fa-dolly"></i>
+                    <p>Collect Material Out of Warehouse</p>
+                    <i class="right fas fa-angle-left"></i>
+                  </a>
+                  <ul class="nav nav-treeview">>
+                    <li class="nav-item">
+                        <a href="?submenu=material_requisition_production_order" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Material Requisition - MES Production Order</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="?submenu=material_return_application_production_order" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Material Return Application - MES Production Order</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="?submenu=material_request_cost_center" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Material Request - Cost Center</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="?submenu=return_application_cost_center" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Return Application - Cost Center</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="?submenu=claim_application_internal_order" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Claim Application - Internal Order</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="?submenu=return_application_internal_order" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Return Application - Internal Order</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="?submenu=material_request_supplier" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Material Request - Supplier</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="?submenu=return_application_supplier" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Return Application - Supplier</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="?submenu=material_request_lineside_warehouse" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Material Request - Line Side Warehouse</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="?submenu=return_application_lineside_warehouse" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Return Application - Line Side Warehouse</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="?submenu=application_for_distribution" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Application for Distribution</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="?submenu=material_dispensing_operation" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Material Dispensing Operation</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="?submenu=material_dispensing_operation_reinforcing_material" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Material Dispensing Operation (Reinforcing Material)</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="?submenu=internal_requisition_batch" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Internal Requisition (Batch)</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="?submenu=internal_requisition_scrap" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Internal Requisition (Scrap)</p>
+                        </a>
+                    </li>
+                  </ul>
+                </li>
+
                 <li class="nav-item">
                   <a href="logout.php" class="nav-link" onclick="return confirm('Do you really wanna to sign out ?')">
                     <i class="nav-icon fas fa-sign-out-alt"></i>
