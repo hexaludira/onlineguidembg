@@ -34,6 +34,7 @@
       <!-- level administrator -->
       <nav class="mt-2">
               <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+
                 <!-- Basic Information Menu -->
                 <li class="nav-item has-treeview">
                   <a href="#" class="nav-link">
@@ -491,6 +492,594 @@
                     </li>
                   </ul>
                 </li>
+
+                <!-- Selling Out of Warehouse -->
+                <li class="nav-item">
+                  <a href="#" class="nav-link">
+                    <i class="nav-icon fas fa-scroll"></i>
+                    <p>Selling Out of Warehouse</p>
+                    <i class="right fas fa-angle-left"></i>
+                  </a>
+                  <ul class="nav nav-treeview">>
+                    <li class="nav-item">
+                        <a href="?submenu=sales_order" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Sales Order</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="?submenu=sales_order_detail" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Sales Order Detail</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="?submenu=delivery_arrangement" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Delivery Arrangement</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="?submenu=selling_out_of_warehouse" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Selling Out of Warehouse</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="?submenu=sales_delivery_bill" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Sales Delivery Bill</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="?submenu=exit_permit" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Exit Permit</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="?submenu=checklist" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Checklist</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="?submenu=isolation_requirements" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Isolation Requirements</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="?submenu=high_standard_requirement" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>High Standard Requirement</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="?submenu=maintenance_of_non-standard_coefficient_length" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Maintenance of Non-standard Coefficient Length</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="?submenu=default_picking_parameters" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Default Picking Parameters</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="?submenu=combination_characteristics" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Combination Characteristics</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="?submenu=depot_planning_arrangement" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Depot Planning Arrangement</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="?submenu=packing_list_scanning_record" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Packing List Scanning Record</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="?submenu=pre-sale_arrangement" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Pre-sale Arrangement</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="?submenu=packing_list" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Packing List</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="?submenu=sales_exit_inspection_warehouse" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Sales Exit Inspection</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="?submenu=maintenance_of_stock_notes" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Maintenance of Stock Notes</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="?submenu=quality_requirements" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Quality Requirements</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="?submenu=picking_scheme" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Picking Scheme</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="?submenu=picking_list" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Picking List</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="?submenu=outbound_planning_generation" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Outbound Planning Generation</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="?submenu=delivery_requirements" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Delivery Requirements</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="?submenu=details_of_packing_list" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Details of Packing List</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="?submenu=delivery_inspection_details_of_sales" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Delivery Inspection Details of Sales</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="?submenu=outbound_planning_confirmation" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Outbound Planning Confirmation</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="?submenu=customer_group_maintenance" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Customer Group Maintenance</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="?submenu=outbound_order_management" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Outbound Order Management</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="?submenu=create_outbound_order" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Create Outbound Order</p>
+                        </a>
+                    </li>
+                  </ul>
+                </li>
+
+                <!-- Inventory Transfer -->
+                <li class="nav-item">
+                  <a href="#" class="nav-link">
+                    <i class="nav-icon fas fa-arrow-right-arrow-left"></i>
+                    <p>Inventory Transfer</p>
+                    <i class="right fas fa-angle-left"></i>
+                  </a>
+                  <ul class="nav nav-treeview">>
+                    <li class="nav-item">
+                        <a href="?submenu=inventory_transfer" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Inventory Transfer</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="?submenu=inventory_utilization" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Inventory Utilization</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="?submenu=inventory_transfer_scanning_record" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Inventory Transfer Scanning Record</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="?submenu=packaging_box_transfer" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Packaging Box Transfer</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="?submenu=internal_claim_return" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Internal Claim Return</p>
+                        </a>
+                    </li>
+                  </ul>
+                </li>
+
+                <!-- Quality Assurance -->
+                <li class="nav-item">
+                  <a href="#" class="nav-link">
+                    <i class="nav-icon fas fa-user-group"></i>
+                    <p>Quality Assurance</p>
+                    <i class="right fas fa-angle-left"></i>
+                  </a>
+                  <ul class="nav nav-treeview">>
+                    <li class="nav-item">
+                        <a href="?submenu=types_of_sampling_schemes" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Types of Sampling Schemes</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="?submenu=sample_inspection_scheme" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Sample Inspection Scheme</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="?submenu=material_allocation_for_quality_inspection" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Material Allocation for Quality Inspection</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="?submenu=quality_inspection_list" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Quality Inspection List</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="?submenu=质检清单项-备品备件" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>质检清单项-备品备件</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="?submenu=items_of_quality_inspection_list" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Items of Quality Inspection List</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="?submenu=statistics_of_qualification_rate_of_quality_inspection" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Statistics of Qualification Rate of Quality Inspection</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="?submenu=sales_exit_inspection_quality" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Sales Exit Inspection</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="?submenu=delivery_inspection_details_of_sales_quality" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Delivery Inspection Details of Sales</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="?submenu=qualified_transferofpurchase_quality" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Qualified Transfer of Purchase into Warehouse</p>
+                        </a>
+                    </li>
+                  </ul>
+                </li>
+
+                <!-- Inventory Work -->
+                <li class="nav-item">
+                  <a href="#" class="nav-link">
+                    <i class="nav-icon fas fa-newspaper"></i>
+                    <p>Inventory Work</p>
+                    <i class="right fas fa-angle-left"></i>
+                  </a>
+                  <ul class="nav nav-treeview">>
+                    <li class="nav-item">
+                        <a href="?submenu=inventory_plan" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Inventory Plan</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="?submenu=abnormal_inventory_posting" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Abnormal Inventory Posting</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="?submenu=abnormal_inventory_details" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Abnormal Inventory Details</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="?submenu=inventory_report" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Inventory Report</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="?submenu=inventory_record" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Inventory Record</p>
+                        </a>
+                    </li>
+                  </ul>
+                </li>
+
+                <!-- Monthly Settlement Management -->
+                <li class="nav-item">
+                  <a href="#" class="nav-link">
+                    <i class="nav-icon fas fa-layer-group"></i>
+                    <p>Monthly Settlement Management</p>
+                    <i class="right fas fa-angle-left"></i>
+                  </a>
+                  <ul class="nav nav-treeview">>
+                    <li class="nav-item">
+                        <a href="?submenu=carry-over_date" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Carry-over Date</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="?submenu=calculation_of_reservoir_age" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Calculation of Reservoir Age</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="?submenu=monthly_statement_of_deposit_age" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Monthly Statement of Deposit Age</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="?submenu=certificate_cancellation_monthly" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Certificate Cancellation</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="?submenu=certificate_write-off_record" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Certificate Write-off Record</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="?submenu=ending_inventory" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Ending Inventory</p>
+                        </a>
+                    </li>
+                  </ul>
+                </li>
+
+                <!-- Label Management -->
+                <li class="nav-item">
+                  <a href="#" class="nav-link">
+                    <i class="nav-icon fas fa-print"></i>
+                    <p>Label Management</p>
+                    <i class="right fas fa-angle-left"></i>
+                  </a>
+                  <ul class="nav nav-treeview">>
+                    <li class="nav-item">
+                        <a href="?submenu=purchasing_receiving_label_printing" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Purchasing Receiving Label Printing</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="?submenu=delivery_label_printing" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Delivery Label Printing</p>
+                        </a>
+                    </li>
+                  </ul>
+                </li>
+
+                <!-- Statement Statistics -->
+                <li class="nav-item">
+                  <a href="#" class="nav-link">
+                    <i class="nav-icon fas fa-clipboard-list"></i>
+                    <p>Statement Statistics</p>
+                    <i class="right fas fa-angle-left"></i>
+                  </a>
+                  <ul class="nav nav-treeview">>
+                    <li class="nav-item">
+                        <a href="?submenu=difference_report_of_recoil_material" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Difference Report of Recoil Material in Line Side Warehouse</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="?submenu=warehouse_direct_feeding_difference_report" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Line Side Warehouse Direct Feeding Difference Report</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="?submenu=production_consumption_analysis_report" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Production Consumption Analysis Report</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="?submenu=safety_inventory_statement" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Safety Inventory Statement</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="?submenu=material_inventory_statistics" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Material Inventory Statistics</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="?submenu=efficiency_analysis_report" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Efficiency Analysis Report</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="?submenu=details_of_warehousing" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Details of Warehousing</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="?submenu=details_of_deposit" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Details of Deposit</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="?submenu=details_of_entry_and_exit" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Details of Entry and Exit</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="?submenu=details_of_material_entry_and_exit" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Details of Material Entry and Exit</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="?submenu=document_statement" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Document Statement</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="?submenu=inventory_statistics" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Inventory Statistics</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="?submenu=inventory_reconciliation" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Inventory Reconciliation</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="?submenu=initial_inventory" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Initial Inventory</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="?submenu=statistical_analysis_of_sluggish_materials" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Statistical analysis of sluggish materials</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="?submenu=outsourcing_purchase_list_execution_report" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Outsourcing purchase list execution report</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="?submenu=production_validity_analysis_report" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Production validity analysis report</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="?submenu=storage_capacity_analysis_report" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Storage capacity analysis report</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="?submenu=packing_information_statement" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Packing Information Statement</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="?submenu=internal_acquisition_statement" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Internal Acquisition Statement</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="?submenu=details_of_internal_receipt_and_return" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Details of Internal Receipt and Return</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="?submenu=inventory_attributes_of_finished_products" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Inventory Attributes of Finished Products</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="?submenu=out-of-stock_report" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Out-of-stock Report</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="?submenu=entry_and_exit_details" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Entry and Exit Details</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="?submenu=optical_bar_inventory_attribute_statement" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Optical Bar Inventory Attribute Statement</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="?submenu=details_of_finished_products_inout_of_warehouse" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Details of Finished Products in and out of Warehouse</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="?submenu=monthly_statement_of_deposit_age_statistics" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Monthly Statement of Deposit Age</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="?submenu=sales_order_status_statistics" class="nav-link">
+                            <i class="far fa-circle nav-icon"></i>
+                            <p>Sales Order Status Statistics</p>
+                        </a>
+                    </li>
+                  </ul>
+                </li>
+
 
                 <li class="nav-item">
                   <a href="logout.php" class="nav-link" onclick="return confirm('Do you really wanna to sign out ?')">
